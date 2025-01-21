@@ -1,5 +1,7 @@
 mod functions;
+mod guessing_game;
 use functions::another_function;
+use guessing_game::guessing_game;
 fn main() {
     // let mut x = 5;
     // println!("The value of x is: {x}");
@@ -35,6 +37,15 @@ fn main() {
     // let guess: u32 = guess.reverse_bits().try_into().unwrap();
     // println!("{guess}");
 
+    guessing_game();
+
     another_function(5);
+
+    let mut a = [0];
+
+    let b = a;
+
+
+
 
 }
